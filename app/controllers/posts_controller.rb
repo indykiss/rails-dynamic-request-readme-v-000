@@ -2,7 +2,7 @@
 class PostController < ApplicationController
 
   def posts
-    @post = 
+    @post = Post.find(params[:id])
   end
 
 
