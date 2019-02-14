@@ -1,9 +1,9 @@
 
 class PostController < ApplicationController
 
-  def posts 
+  def posts
+    @post = 
+  end
 
-  end 
 
-
-end 
+end
